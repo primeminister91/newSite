@@ -1,0 +1,44 @@
+#landing-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 5em;
+    
+}
+#top {
+    grid-column: 2 / span 2;
+    grid-row: 1;
+    text-align: center;
+    z-index: 10;
+}
+
+#image {
+    grid-column: 1/ span 4;
+    grid-row: 1 /span 4;
+    text-align: center;
+    z-index: 9;
+}
+
+#text {
+    grid-column: 2/span 2;
+    grid-row: 2/span 2;
+    z-index: 9;
+    text-align: center;
+    padding-top: 25%;
+    
+}
+#landing-grid a {
+    text-decoration: none;
+}
+h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 2em;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
