@@ -1,3 +1,11 @@
+body {
+    background-image: url(images/woodWalkway.JPG);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
 #landing-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -38,6 +46,7 @@ h2 {
     font-family: 'Caveat', cursive;
     font-size: 2em;
     padding: 0;
+    color: black;
 }
 img {
     width: 100%;

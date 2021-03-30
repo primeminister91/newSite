@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;    
+}
+
+#top {
+    background-color: lightslategray;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    
+}
+
+
+h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 3em;
+}
+
+nav a {
+    text-decoration: none;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    float: right;
+    padding: 10px;
+}
+
+#content {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+footer {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 720px) {
+    img {
+        max-height: 100%;
+    }
+  }
