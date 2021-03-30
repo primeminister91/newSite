@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/woodWalkway.JPG);
+    background-image: url("/images/woodWalkway.JPG");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,12 +24,6 @@ h1 {
     z-index: 10;
 }
 
-#image {
-    grid-column: 1/ span 4;
-    grid-row: 1 /span 4;
-    text-align: center;
-    z-index: 9;
-}
 
 #text {
     grid-column: 2/span 2;
@@ -48,12 +42,7 @@ h2 {
     padding: 0;
     color: black;
 }
-img {
-    width: 100%;
-}
 
 @media only screen and (max-width: 720px) {
-      img {
-          max-height: 100%;
-      }
+    
     }
